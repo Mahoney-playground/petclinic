@@ -1,4 +1,4 @@
-package lidalia.petshop.tests;
+package lidalia.petshop.tests.api;
 
 import com.google.common.collect.ImmutableCollection;
 

@@ -1,9 +1,9 @@
 package lidalia.petshop.tests.endtoend;
 
-import lidalia.petshop.tests.And;
-import lidalia.petshop.tests.Vet;
+import lidalia.petshop.tests.api.And;
+import lidalia.petshop.tests.api.Vet;
 
-class VetActions implements lidalia.petshop.tests.VetActions {
+class VetActions implements lidalia.petshop.tests.api.VetActions {
 
     private final Vet vet;
 
@@ -12,7 +12,7 @@ class VetActions implements lidalia.petshop.tests.VetActions {
     }
 
     @Override
-    public And<? extends lidalia.petshop.tests.VetActions> joinsTheClinic() {
+    public And<? extends lidalia.petshop.tests.api.VetActions> joinsTheClinic() {
         return new And<>(this);
     }
 }

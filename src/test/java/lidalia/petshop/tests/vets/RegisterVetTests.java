@@ -2,14 +2,14 @@ package lidalia.petshop.tests.vets;
 
 import org.junit.Test;
 
-import lidalia.petshop.tests.PetClinicTestClient;
-import lidalia.petshop.tests.Vet;
+import lidalia.petshop.tests.api.PetClinicTestClient;
+import lidalia.petshop.tests.api.Vet;
 
-import static lidalia.petshop.tests.Assertions.then;
-import static lidalia.petshop.tests.TestStrategy.client;
-import static lidalia.petshop.tests.VetBuilder.aVet;
-import static lidalia.petshop.tests.TestStrategy.given;
-import static lidalia.petshop.tests.TestStrategy.when;
+import static lidalia.petshop.tests.api.Assertions.then;
+import static lidalia.petshop.tests.api.TestStrategy.client;
+import static lidalia.petshop.tests.api.VetBuilder.aVet;
+import static lidalia.petshop.tests.api.TestStrategy.given;
+import static lidalia.petshop.tests.api.TestStrategy.when;
 
 public class RegisterVetTests {
 

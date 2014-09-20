@@ -1,9 +1,9 @@
 package lidalia.petshop.tests.endtoend;
 
-import lidalia.petshop.tests.And;
-import lidalia.petshop.tests.Vet;
+import lidalia.petshop.tests.api.And;
+import lidalia.petshop.tests.api.Vet;
 
-class VetPreconditions implements lidalia.petshop.tests.VetPreconditions {
+class VetPreconditions implements lidalia.petshop.tests.api.VetPreconditions {
 
     private final Vet vet;
 
@@ -12,13 +12,13 @@ class VetPreconditions implements lidalia.petshop.tests.VetPreconditions {
     }
 
     @Override
-    public And<? extends lidalia.petshop.tests.VetPreconditions> isRegistered() {
+    public And<? extends lidalia.petshop.tests.api.VetPreconditions> isRegistered() {
 
         return new And<>(this);
     }
 
     @Override
-    public And<? extends lidalia.petshop.tests.VetPreconditions> isNotEmployedByTheClinic() {
+    public And<? extends lidalia.petshop.tests.api.VetPreconditions> isNotEmployedByTheClinic() {
         return new And<>(this);
     }
 

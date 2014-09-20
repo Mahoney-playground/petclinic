@@ -1,4 +1,4 @@
-package lidalia.petshop.tests;
+package lidalia.petshop.tests.api;
 
 import lidalia.petshop.tests.inmemory.InMemoryTestEnvironment;
 

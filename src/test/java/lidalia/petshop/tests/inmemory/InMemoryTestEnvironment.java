@@ -1,10 +1,10 @@
 package lidalia.petshop.tests.inmemory;
 
-import lidalia.petshop.tests.PetClinicTestClient;
-import lidalia.petshop.tests.TestEnvironment;
-import lidalia.petshop.tests.Vet;
-import lidalia.petshop.tests.VetActions;
-import lidalia.petshop.tests.VetPreconditions;
+import lidalia.petshop.tests.api.PetClinicTestClient;
+import lidalia.petshop.tests.api.TestEnvironment;
+import lidalia.petshop.tests.api.Vet;
+import lidalia.petshop.tests.api.VetActions;
+import lidalia.petshop.tests.api.VetPreconditions;
 
 public class InMemoryTestEnvironment implements TestEnvironment {
 

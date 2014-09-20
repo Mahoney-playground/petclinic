@@ -1,8 +1,8 @@
 package lidalia.petshop.tests.inmemory;
 
-import lidalia.petshop.tests.And;
-import lidalia.petshop.tests.VetActions;
-import lidalia.petshop.tests.Vet;
+import lidalia.petshop.tests.api.And;
+import lidalia.petshop.tests.api.VetActions;
+import lidalia.petshop.tests.api.Vet;
 
 class InMemoryVetActions implements VetActions {
 

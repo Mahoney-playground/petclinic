@@ -1,4 +1,4 @@
-package lidalia.petshop.tests;
+package lidalia.petshop.tests.api;
 
 public interface TestEnvironment {
 
