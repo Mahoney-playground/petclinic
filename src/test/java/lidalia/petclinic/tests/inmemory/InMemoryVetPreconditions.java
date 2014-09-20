@@ -1,8 +1,8 @@
-package lidalia.petshop.tests.inmemory;
+package lidalia.petclinic.tests.inmemory;
 
-import lidalia.petshop.tests.api.And;
-import lidalia.petshop.tests.api.Vet;
-import lidalia.petshop.tests.api.VetPreconditions;
+import lidalia.petclinic.tests.api.And;
+import lidalia.petclinic.tests.api.Vet;
+import lidalia.petclinic.tests.api.VetPreconditions;
 
 class InMemoryVetPreconditions implements VetPreconditions {
 

@@ -1,8 +1,8 @@
-package lidalia.petshop.tests.inmemory;
+package lidalia.petclinic.tests.inmemory;
 
 import com.google.common.collect.ImmutableList;
-import lidalia.petshop.tests.api.Vet;
-import lidalia.petshop.tests.api.PetClinicTestClient;
+import lidalia.petclinic.tests.api.Vet;
+import lidalia.petclinic.tests.api.PetClinicTestClient;
 
 class InMemoryPetClinicTestClient implements PetClinicTestClient {
 

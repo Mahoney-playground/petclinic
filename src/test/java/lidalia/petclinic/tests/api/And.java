@@ -1,4 +1,4 @@
-package lidalia.petshop.tests.api;
+package lidalia.petclinic.tests.api;
 
 public class And<T> {
 

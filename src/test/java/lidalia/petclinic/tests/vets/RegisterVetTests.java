@@ -1,15 +1,15 @@
-package lidalia.petshop.tests.vets;
+package lidalia.petclinic.tests.vets;
 
 import org.junit.Test;
 
-import lidalia.petshop.tests.api.PetClinicTestClient;
-import lidalia.petshop.tests.api.Vet;
+import lidalia.petclinic.tests.api.PetClinicTestClient;
+import lidalia.petclinic.tests.api.Vet;
 
-import static lidalia.petshop.tests.api.Assertions.then;
-import static lidalia.petshop.tests.api.TestStrategy.client;
-import static lidalia.petshop.tests.api.VetBuilder.aVet;
-import static lidalia.petshop.tests.api.TestStrategy.given;
-import static lidalia.petshop.tests.api.TestStrategy.when;
+import static lidalia.petclinic.tests.api.Assertions.then;
+import static lidalia.petclinic.tests.api.TestStrategy.client;
+import static lidalia.petclinic.tests.api.VetBuilder.aVet;
+import static lidalia.petclinic.tests.api.TestStrategy.given;
+import static lidalia.petclinic.tests.api.TestStrategy.when;
 
 public class RegisterVetTests {
 

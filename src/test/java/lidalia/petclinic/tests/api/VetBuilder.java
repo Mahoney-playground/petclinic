@@ -1,4 +1,4 @@
-package lidalia.petshop.tests.api;
+package lidalia.petclinic.tests.api;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 

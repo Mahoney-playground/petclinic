@@ -1,6 +1,6 @@
-package lidalia.petshop.tests.api;
+package lidalia.petclinic.tests.api;
 
-import lidalia.petshop.tests.inmemory.InMemoryTestEnvironment;
+import lidalia.petclinic.tests.inmemory.InMemoryTestEnvironment;
 
 public class TestStrategy {
 
