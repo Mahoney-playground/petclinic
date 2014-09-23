@@ -5,19 +5,28 @@ import org.junit.Test;
 import lidalia.petclinic.tests.api.PetClinicTestClient;
 import lidalia.petclinic.tests.api.Vet;
 
-import static lidalia.petclinic.tests.api.Assertions.then;
 import static lidalia.petclinic.tests.api.TestStrategy.client;
-import static lidalia.petclinic.tests.api.VetBuilder.aVet;
+import static lidalia.petclinic.tests.api.VetBuilder.aRandomVet;
 import static lidalia.petclinic.tests.api.TestStrategy.given;
 import static lidalia.petclinic.tests.api.TestStrategy.when;
+import static org.assertj.core.api.BDDAssertions.then;
 
 public class RegisterVetTests {
 
     private final PetClinicTestClient client = client();
 
     @Test
+    public void vetNotInClinic() {
+        final Vet theVet = aRandomVet().build();
+
+        given(theVet).isNotEmployedByTheClinic();
+
+        then(client.getTheEmployeeList()).doesNotContain(theVet);
+    }
+
+    @Test
     public void vetJoinsTheClinic() {
-        final Vet theVet = aVet().build();
+        final Vet theVet = aRandomVet().build();
 
         given(theVet)
                 .isRegistered()
@@ -26,8 +35,6 @@ public class RegisterVetTests {
 
         when(theVet).joinsTheClinic();
 
-        then(client.getTheEmployeeList()).shouldContain(theVet);
+        then(client.getTheEmployeeList()).contains(theVet);
     }
-
-
 }
