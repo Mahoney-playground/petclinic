@@ -1,4 +1,4 @@
-package lidalia.petclinic.tests.inmemory;
+package lidalia.petclinic.tests.api.inmemory;
 
 import lidalia.petclinic.tests.api.And;
 import lidalia.petclinic.tests.api.Vet;

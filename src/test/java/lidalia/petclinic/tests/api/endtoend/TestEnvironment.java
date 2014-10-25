@@ -1,4 +1,4 @@
-package lidalia.petclinic.tests.endtoend;
+package lidalia.petclinic.tests.api.endtoend;
 
 import lidalia.petclinic.tests.api.Vet;
 
@@ -6,7 +6,8 @@ public class TestEnvironment implements lidalia.petclinic.tests.api.TestEnvironm
 
     @Override
     public lidalia.petclinic.tests.api.PetClinicTestClient client() {
-        return new PetClinicTestClient();
+        throw new UnsupportedOperationException("Not implemented");
+//        return new PetClinicTestClient(scheme, applicationLocation);
     }
 
     @Override

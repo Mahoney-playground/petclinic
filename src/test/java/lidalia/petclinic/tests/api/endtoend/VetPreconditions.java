@@ -1,4 +1,4 @@
-package lidalia.petclinic.tests.endtoend;
+package lidalia.petclinic.tests.api.endtoend;
 
 import lidalia.petclinic.tests.api.And;
 import lidalia.petclinic.tests.api.Vet;
